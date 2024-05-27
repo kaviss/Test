@@ -20,7 +20,7 @@ jobs:
       - run:
           name: Push Docker image to DockerHub
           command: |
-            docker login -u kselvakalathi -p Start@123
+            docker login -u kselvakalathi -p Udaya@1988
             docker tag my-app kselvakalathi/testcircleci
             docker push kselvakalathi/testcircleci         
 
